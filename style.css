@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff0000;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+}
+
+#destaques, #produtos {
+    padding: 20px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para banners, produtos, cards, etc. */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produto h3 {
+    font-weight: bold;
+}
+
+.produto p {
+    color: #666;
+}
+
+.produto .preco {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.produto .botao-comprar {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#banner {
+    background-color: #000000; /* Cor de fundo do banner */
+    padding: 20px;
+    text-align: center;
+}
+
+#banner img {
+    width: 10%;
+    height: 1;
+    margin-bottom: 20px;
+}
+
+.texto-banner {
+    color: #fff;
+}
+
+.texto-banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.texto-banner h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.botao-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.grid-banni {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.banni {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.banni img {
+    width: 50%;
+    height: 100;
+    margin-bottom: 10px;
+}
+
+.banni h3 {
+    font-weight: bold;
+}
+
+.banni p {
+    color: #666;
+}
+
+.banni .preco {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.banni .botao-comprar {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
